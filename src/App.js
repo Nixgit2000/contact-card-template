@@ -1,25 +1,22 @@
-import logo from './logo.svg';
+
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default function App() {
+return (
+<div id="container">
+<div id="card">
+<div id="grid">
+
+  <div id="grid1"></div>
+  <label id="grid2a">First Name: </label><input id="grid2b"></input>
+  <label id="grid3a">Last Name:</label><input id="grid3b"></input>
+  <label id="grid3a">E-mail:</label><input id="grid3b"></input>
+  <label id="grid4a">Message:</label><input id="grid4b"></input>
+  <button id="grid5">SUBMIT</button>
+</div>
+</div>
+</div>
+);
 }
 
-export default App;
+
